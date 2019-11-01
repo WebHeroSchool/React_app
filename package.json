@@ -1,0 +1,22 @@
+{
+  "name": "react_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo 'Hello, World!'",
+    "create": "touch index.js",
+    "delete": "rm -rf index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebHeroSchool/React_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebHeroSchool/React_app/issues"
+  },
+  "homepage": "https://github.com/WebHeroSchool/React_app#readme"
+}
