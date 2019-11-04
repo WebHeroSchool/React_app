@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "echo 'Hello, World!'",
-    "create": "touch index.js",
-    "delete": "rm -rf index.js"
+    "create": "mkdir build",
+    "delete": "rm -rf build"
   },
   "repository": {
     "type": "git",
