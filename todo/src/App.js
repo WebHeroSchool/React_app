@@ -1,9 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-const  someVariable = 'Hello!';
-const logics = true;
-const ternaryOperator = false;
+
+import {count, length} from './number'
 
 function App() {
   return (
@@ -18,37 +17,8 @@ function App() {
           Hello, World!
         </p>
 
-        {/* добавление числа: */}
-          <p>
-            {45}
-          </p>
-
-        {/* вывод значения переменной {}; */}
         <p>
-        {someVariable}
-        </p>
-
-        {/* добавление арифметической операции: */}
-        <p>
-        {20+14}
-        </p>
-        
-        {/* добавление результата логической операции */}
-        <p>
-          {logics && 'Logics is true'}
-        </p>
-
-        {/* добавление результата тернарного условия; */}
-        <p>
-          {ternaryOperator ? 'Ternary is true' : 'Ternary is false'}
-        </p>
-
-        {/* добавление объектов: */}
-        <p>
-          {null}
-          {undefined}
-          {false}
-          {true}
+          {count * length}
         </p>
         <a
           className="App-link"
