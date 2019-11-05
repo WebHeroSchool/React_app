@@ -1,7 +1,14 @@
 import React from 'react';
 
-const element = (<div>
-  <img src="https://medialeaks.ru/wp-content/uploads/2019/08/2-33.jpg" alt = "This is cat!"></img>
-</div>)
+const ItemList = () => (<ul>
+  <li>Пункт 1</li>
+  <li>Пункт 2</li>
+</ul>);
 
-export {element};
+const App = () => (<div>
+  <h1>Hello, World!</h1>
+  <ItemList />
+</div>);
+
+
+export default App;
