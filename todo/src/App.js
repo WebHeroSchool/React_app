@@ -1,12 +1,8 @@
 import React from 'react';
-
-const ItemList = () => (<ul>
-  <li>Пункт 1</li>
-  <li>Пункт 2</li>
-</ul>);
+import ItemList from '../ItemList/ItemList.js';
 
 const App = () => (<div>
-  <h1>Hello, World!</h1>
+  <h1>Hello! It's todo-list.</h1>
   <ItemList />
 </div>);
 
