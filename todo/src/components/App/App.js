@@ -1,11 +1,16 @@
 import React from 'react';
 import ItemList from '../ItemList/ItemList.js';
 import Footer from '../Footer/Footer';
-const todoItem = "Create new app!";
-
+import InputItem from '../InputItem/InputItem';
+const todoItem = [
+  {value: 'Сходить на рынок'},
+  {value: 'Купить котиков, которые стреляют лазером из глаз'},
+  {value: 'Захватить мир'}
+];
 
 const App = () => (<div>
-  <h1>Hello! It's todo-list.</h1>
+  <h1>Важные дела:</h1>
+  <InputItem />
   <ItemList todoItem={ todoItem }/>
   <Footer todoListAll={3}/>
 </div>);
