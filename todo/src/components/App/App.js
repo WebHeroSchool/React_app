@@ -3,11 +3,12 @@ import ItemList from '../ItemList/ItemList.js';
 import Footer from '../Footer/Footer';
 import InputItem from '../InputItem/InputItem';
 import styles from './App.module.css';
+import classnames from 'classnames';
 
 const todoItem = [
-  {value: 'Сходить на рынок'},
-  {value: 'Купить котиков, которые стреляют лазером из глаз'},
-  {value: 'Захватить мир'}
+  {value: 'Сходить на рынок', isDone: true},
+  {value: 'Купить котиков, которые стреляют лазером из глаз', isDone: true},
+  {value: 'Захватить мир', isDone: false}
 ];
 
 const App = () => (<div className = {styles.wrap}>
