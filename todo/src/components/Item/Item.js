@@ -5,7 +5,7 @@ import classnames from 'classnames';
 const Item = ({ value, isDone }) => (<span className = {
     classnames({
             [styles.item]: true,
-            [styles.done]: isDone
+            [styles.done]: isDone,
       })
   }>
       {value}
